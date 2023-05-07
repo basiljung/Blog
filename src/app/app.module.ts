@@ -4,17 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppMainComponent } from './app.main.component';
+import { TabNavComponent } from './structure-components/tab-nav/tab-nav.component';
+
+import { TabMenuModule } from 'primeng/tabmenu';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    AppMainComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, AppMainComponent, TabNavComponent],
+  imports: [BrowserModule, AppRoutingModule, TabMenuModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
