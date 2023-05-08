@@ -10,9 +10,14 @@ import { TabMenuModule } from 'primeng/tabmenu';
 import { HomeComponent } from './content-components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, AppMainComponent, TabNavComponent, HomeComponent],
+  declarations: [
+    AppComponent,
+    AppMainComponent,
+    TabNavComponent,
+    HomeComponent
+  ],
   imports: [BrowserModule, AppRoutingModule, TabMenuModule],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

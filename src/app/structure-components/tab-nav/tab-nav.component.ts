@@ -5,7 +5,7 @@ import { MenuItem } from 'primeng/api';
 @Component({
   selector: 'app-tab-nav',
   templateUrl: './tab-nav.component.html',
-  styleUrls: ['./tab-nav.component.scss'],
+  styleUrls: ['./tab-nav.component.scss']
 })
 export class TabNavComponent implements OnInit {
   items: MenuItem[] = [];
@@ -16,7 +16,7 @@ export class TabNavComponent implements OnInit {
       { label: 'Calendar', icon: 'pi pi-fw pi-calendar' },
       { label: 'Edit', icon: 'pi pi-fw pi-pencil' },
       { label: 'Documentation', icon: 'pi pi-fw pi-file' },
-      { label: 'Settings', icon: 'pi pi-fw pi-cog' },
+      { label: 'Settings', icon: 'pi pi-fw pi-cog' }
     ];
   }
 }
