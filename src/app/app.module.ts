@@ -7,9 +7,10 @@ import { AppMainComponent } from './app.main.component';
 import { TabNavComponent } from './structure-components/tab-nav/tab-nav.component';
 
 import { TabMenuModule } from 'primeng/tabmenu';
+import { HomeComponent } from './content-components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, AppMainComponent, TabNavComponent],
+  declarations: [AppComponent, AppMainComponent, TabNavComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule, TabMenuModule],
   providers: [],
   bootstrap: [AppComponent],
