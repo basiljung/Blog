@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  constructor(){
-    // eslint-disable-next-line no-console
-    console.log('Hello world!')
-  }
-
 }
